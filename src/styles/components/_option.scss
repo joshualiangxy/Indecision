@@ -1,0 +1,27 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: $l-size $m-size;
+    border-bottom: 1px solid $lighter-blue;
+}
+
+.option__text {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    overflow-wrap: break-word;
+    max-width: 50rem;
+}
+
+@media (max-width: 40rem) {
+    .option__text {
+        max-width: 70vw;
+    }
+}
+
+@media (max-width: 25rem) {
+    .option__text {
+        max-width: 60vw;
+    }
+}
